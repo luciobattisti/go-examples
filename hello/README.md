@@ -25,3 +25,8 @@ cd ../
 go mod edit -replace examples.com/helper=./helper
 go get examples.com/helper
 ```
+
+# Build
+```bash
+go build -o hello.o
+```
